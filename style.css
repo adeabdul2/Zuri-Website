@@ -1,4 +1,20 @@
 body{
     background-color: antiquewhite;
     padding: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-section{
+    margin-top: 3em;
+}
+
+.grow{
+    margin-top: 3em;
+    font-size: 1.7em;
+}
+
+.unlock{
+    margin-top: 2em;
+    width:
 }
