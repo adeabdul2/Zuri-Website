@@ -59,3 +59,17 @@ button{
     color: #e7332b;
     border: 1px solid #e7332b;
 }
+
+.middle-section{
+    margin-top: 10em;
+}
+
+.cater{
+    text-align: center;
+    display: inline-block;
+    font-size: 1.4em;
+    color:#514b54;
+    width: 400px;
+    border: 1px solid red;
+    line-height: 1.8em;
+}
