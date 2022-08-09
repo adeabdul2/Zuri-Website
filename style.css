@@ -110,6 +110,7 @@ button{
 
 .bottom-section{
     margin-top: 20em;
+    margin-bottom: 5em;
     display: flex;
     justify-content:space-between;
     align-items: flex-start;
@@ -152,6 +153,11 @@ button{
 
 br{
     display: block;
-    margin-top: 100em;
-    margin-bottom: 200em;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.footer {
+    margin-bottom: 10em;
+    font-weight: bold;
 }
