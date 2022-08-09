@@ -17,6 +17,11 @@ span{
     color:#e7332b;
 }
 
+span a{
+    text-decoration: none;
+    color:#e7332b;
+}
+
 .grow{
     margin-top: 3em;
     font-size: 1.7em;
@@ -50,10 +55,22 @@ button{
     color: white;
 }
 
+.new:hover{
+    cursor: pointer;
+    background: #fffafa;
+    color:#e7332b;
+}
+
 .need{
     background: #ffffff;
     color: #e7332b;
     border: 1px solid #e7332b;
+}
+
+.need:hover{
+    cursor: pointer;
+    background: #e7332b;
+    color:#fffafa;
 }
 
 .middle-section{
