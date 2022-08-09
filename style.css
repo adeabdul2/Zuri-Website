@@ -27,7 +27,7 @@ span{
 .unlock{
     margin-top: 0.8em;
     font-size: 0.9em;
-    width: 55%;
+    width: 670px;
     display: inline-block;
     text-align: center;
 }
@@ -181,3 +181,34 @@ br{
     }
 }
 
+@media (max-width: 770px){
+    body{
+        padding: 0;
+    }
+
+    .top-section{
+        padding-top: 7rem;
+    }
+
+    .need{
+        margin-top: 1.5em;
+        width: 17em;
+
+    }
+
+    .bottom-section{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .unlock{
+        width: 95%;
+        flex: 1;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
