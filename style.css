@@ -53,6 +53,7 @@ button{
 .need{
     background: #ffffff;
     color: #e7332b;
+    border: 1px solid #e7332b;
 }
 
 .middle-section{
@@ -150,3 +151,33 @@ br{
     margin-bottom: 8em;
     font-weight: bold;
 }
+
+@media (max-width: 1000px){
+
+    .blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.4em;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .training{
+        flex: 1;
+        width: 90%;
+        margin-top: 3em;
+    }
+
+    .internship{
+        flex: 1;
+        width: 90%;
+        margin-top: 3em;
+    }
+
+    .talent{
+        flex: 1;
+        width: 90%;
+        margin-top: 3em;
+    }
+}
+
