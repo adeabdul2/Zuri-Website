@@ -76,10 +76,48 @@ button{
 
 .blocks{
     display: flex;
-    margin-top: 5em;
+    justify-content:space-between;
+    margin-top: 2.4em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blocks img{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 1px solid red;
+}
+
+.blocks p{
+    width: 90%;
+    border: 1px solid red;
+}
+
+.blocks a{
+    display: block;
+    color:#e7332b;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    text-decoration: none;
 }
 
 .training, .internship, .talent{
     background: #fffafa;
+    padding: 1.8rem;
+    text-align: left;
+    width: 25%;
     border: 1px solid red;
+}
+
+.bottom-section{
+    margin-top: 20em;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 15px;
+}
+
+.bottom-section > * {
+    border: 1px solid red;
+
 }
