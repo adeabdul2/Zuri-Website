@@ -5,7 +5,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
 .top-section{
     margin-top: -1rem;
     padding-top: 3rem;
@@ -100,7 +99,8 @@ button{
 }
 
 .blocks p{
-    width: 90%;
+    width: 98%;
+    color:#514b54;
 }
 
 .blocks a{
@@ -150,6 +150,7 @@ button{
 .heading{
     margin-top: 0;
     font-weight: bold;
+    color:#514b54;
 }
 
 .icons img{
