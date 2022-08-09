@@ -215,15 +215,15 @@ br{
     }
 
     .middle-section{
-        padding: 2rem;
+        text-align: center;
+        border: 1px solid red;
     }
 
     .cater{
-        text-align: center;
         display: inline-block;
         font-size: 1.2em;
         color:#514b54;
-        width: 375px;
+        width: 350px;
         line-height: 1.8em;
         margin-top: -0.4em;
     }
@@ -240,7 +240,7 @@ br{
     }
 
     .links{
-        width: 9%;
+        width: 15%;
         margin-top: 2rem;
     }
 
