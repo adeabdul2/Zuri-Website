@@ -202,6 +202,33 @@ br{
         text-align: center;
     }
 
+    #logo{
+        width: 10rem;
+        margin-bottom: -1rem;
+    }
+
+    .links{
+        width: 9%;
+        margin-top: 2rem;
+    }
+
+    .heading{
+        font-size: 1.7em;
+        margin-top: 0.4rem;
+        margin-bottom: -1px;
+        color: #514b54;
+    }
+
+    .follow-us{
+        margin-top: 2rem;
+        margin-bottom: -3rem;
+    }
+
+    .icons {
+        margin-top: 0.4rem;
+    }
+    
+
     .unlock{
         width: 95%;
         flex: 1;
