@@ -196,6 +196,10 @@ br{
 
     }
 
+    .middle-section{
+        padding: 2rem;
+    }
+
     .bottom-section{
         flex-direction: column;
         align-items: center;
@@ -226,16 +230,19 @@ br{
 
     .icons {
         margin-top: 0.4rem;
-    }
-    
+    }    
 
     .unlock{
-        width: 95%;
+        width: 97%;
         flex: 1;
     }
 
     .buttons{
         display: flex;
         flex-direction: column;
+    }
+
+    .footer{
+        color:#514b54;
     }
 }
