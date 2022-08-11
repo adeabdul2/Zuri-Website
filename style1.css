@@ -1,11 +1,14 @@
+/* THE CONTAINER */
 .container{
     width: 85%;
     margin: auto;
 }
 
+/* THE HEADER */
 header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 150px;
     border: 1px solid red;
 }
 
@@ -29,6 +32,8 @@ header{
     background: grey;
 }
 
+
+/* SECTION 1 */
 #section1 img{
     width: 200px;
     border: 1px solid red;
