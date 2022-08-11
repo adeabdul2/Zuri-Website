@@ -1,0 +1,44 @@
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.navbar{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.navbar button{
+    height: 10vh;
+    width: auto;
+    font-size: 15px;
+    border: 0;
+    background: none;
+}
+
+.navbar button:hover{
+    cursor: pointer;
+    background: grey;
+}
+
+#section1 img{
+    width: 200px;
+    border: 1px solid red;
+}
+
+#section1{
+    display: flex;
+    border: 1px solid yellowgreen;
+}
+
+#section1 >* {
+    border:1px solid red;
+}
