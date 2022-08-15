@@ -63,14 +63,15 @@ header{
     display: flex;
     justify-content: space-between;
     margin-right: -100px;
-
+    border: 1px solid red;
 }
 
 .sect-a{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    width: 58%;
+    width: 50%;
+    border: 1px solid red;
 
 }
 
@@ -128,20 +129,34 @@ span{
     width: 42%;
     display: flex;
     align-items: center;
+    border: 1px solid red;
 }
 
 .sect-b1{
-    width: 380px;
+    width: 80%;
+    margin-left: 20px;
 }
 
 .sect-b2{
-    width: 130px;
-    margin-left: -27px;
-    text-align: top;
+    width: 22%;
+    margin-left: -30px;
 }
 
 
 /* MEDIA QUERIES */
+
+@media (max-width: 1200px){
+    #section1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .zuri-team{
+        border:1px solid red;
+    }
+}
 
 @media (max-width: 890px){
     /* THE CONTAINER */
