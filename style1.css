@@ -1,6 +1,6 @@
 /* THE CONTAINER */
 .container{
-    width: 80%;
+    width: 85%;
     margin: auto;
 }
 
@@ -59,19 +59,89 @@ header{
 
 
 /* SECTION 1 */
-#section1 img{
-    width: 200px;
-    border: 1px solid red;
-}
-
 #section1{
     display: flex;
-    border: 1px solid yellowgreen;
+    justify-content: space-between;
+    margin-right: -100px;
+
 }
 
-#section1 >* {
-    border:1px solid red;
+.sect-a{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 58%;
+
 }
+
+.vetted{
+    font-size:45px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: -25px;
+}
+
+span{
+    color:#e7332b;
+}
+
+.curvy-line{
+    width: 100px;
+    margin-left: 450px;
+}
+
+.zuri-team{
+    color: #514b54;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    width: 405px;
+    margin-bottom: 25px;
+}
+
+.hire-btn1{
+    height: 40px;
+    width: 180px;
+    text-decoration: none;
+    background: #e7332b;
+    border-radius: 0 0 10px 0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.join-btn{
+    height: 40px;
+    width: 230px;
+    text-decoration: none;
+    background: #514b54;
+    border-radius: 0 0 10px 0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.sect-b{
+    width: 42%;
+    display: flex;
+    align-items: center;
+}
+
+.sect-b1{
+    width: 380px;
+}
+
+.sect-b2{
+    width: 130px;
+    margin-left: -27px;
+    text-align: top;
+}
+
+
+/* MEDIA QUERIES */
 
 @media (max-width: 890px){
     /* THE CONTAINER */
