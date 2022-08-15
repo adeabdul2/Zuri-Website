@@ -13,10 +13,18 @@ header{
 }
 
 .navbar{
-    width: 320px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     border: 1px solid red;
+}
+
+#navs{
+    width: 100px;
+}
+
+.hire-btn{
+    background: #000;
 }
 
 .navbar button{
