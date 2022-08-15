@@ -162,12 +162,11 @@ span{
     }
 
     .sect-a{
-        width: 85%;
+        width: 95%;
     }    
 
     .curvy-line{
-        width: 100px;
-        margin-left: 520px;
+        margin-left: 75%;
     }
 
     .zuri-team{
@@ -194,6 +193,12 @@ span{
 
 }
 
+@media (max-width: 1100px) and (min-width: 900px){
+    .curvy-line{
+        margin-left: 70%;
+    }
+}
+
 @media (max-width: 890px){
     /* THE CONTAINER */
 
@@ -218,5 +223,22 @@ span{
 
 .hire-btn{
     width: 170px;
+}
+
+#section1{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.sect-a{
+    width: 95%;
+}
+
+.vetted{
+    font-size: 40px;
+}
+
+.curvy-line{
+    margin-left: 190px;
 }
 }
