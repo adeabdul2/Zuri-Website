@@ -1,6 +1,6 @@
 /* THE CONTAINER */
 .container{
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 
@@ -9,14 +9,14 @@ header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 150px;
-    border: 1px solid red;
+    width: 100%;
 }
 
 .navbar{
-    width: 500px;
     display: flex;
+    width: 500px;
     justify-content: space-between;
-    border: 1px solid red;
+    align-items: center;
 }
 
 #navs{
@@ -24,7 +24,18 @@ header{
 }
 
 .hire-btn{
-    background: #000;
+    height: 70%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #e7332b;
+    border-radius: 0 0 10px 0;
+}
+
+.hire{
+    color:#ffffff;
 }
 
 .navbar button{
@@ -37,8 +48,9 @@ header{
 
 .navbar button:hover{
     cursor: pointer;
-    background: grey;
 }
+
+
 
 
 /* SECTION 1 */
@@ -54,4 +66,31 @@ header{
 
 #section1 >* {
     border:1px solid red;
+}
+
+@media (max-width: 890px){
+    /* THE CONTAINER */
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.header{
+    width: 95%;
+}
+
+.navbar{
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navs{
+    display: none;
+}
+
+.hire-btn{
+    width: 170px;
+}
 }
