@@ -10,6 +10,11 @@ header{
     justify-content: space-between;
     margin-bottom: 150px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    width: 82%;
+    padding-bottom: 15px;
+    background: white;
 }
 
 .navbar{
@@ -62,6 +67,7 @@ header{
 #section1{
     display: flex;
     justify-content: space-between;
+    margin-top: 200px;
     margin-right: -100px;
     border: 1px solid red;
 }
@@ -72,7 +78,6 @@ header{
     justify-content:center;
     width: 50%;
     border: 1px solid red;
-
 }
 
 .vetted{
@@ -151,11 +156,42 @@ span{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    .sect-a{
+        width: 85%;
+    }    
+
+    .curvy-line{
+        width: 100px;
+        margin-left: 520px;
     }
 
     .zuri-team{
+        width: 100%;
         border:1px solid red;
     }
+
+    .sect-b{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .sect-b1{
+        width: 95%;
+        margin-left: 20px;
+    }
+    
+    .sect-b2{
+        width: 32%;
+        margin-bottom: -400px;
+        margin-left: -50px;
+    }
+
+
 }
 
 @media (max-width: 890px){
