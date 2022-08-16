@@ -1,19 +1,28 @@
+body{
+    margin: 0;
+    width: 100vw;
+}
+
 /* THE CONTAINER */
 .container{
-    width: 85%;
-    margin: auto;
+    width: 100%;
 }
 
 /* THE HEADER */
 header{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 150px;
     position: fixed;
     top: 0;
-    width: 82%;
+    width: 99vw;
     padding-bottom: 15px;
     background: white;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    margin: auto;
 }
 
 .navbar{
@@ -65,17 +74,19 @@ header{
 /* SECTION 1 */
 #section1{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    width: 98%;
     margin-top: 200px;
-    margin-right: -95px;
     margin-bottom: 100px;
+    border: 3px solid red;
 }
 
 .sect-a{
     display: flex;
     flex-direction: column;
     justify-content:center;
-    width: 50%;
+    width: 54%;
+    border: 1px solid red;
 }
 
 .vetted{
@@ -129,9 +140,10 @@ span{
 }
 
 .sect-b{
-    width: 42%;
+    width: 38%;
     display: flex;
     align-items: center;
+    border: 1px solid red;
 }
 
 .sect-b1{
@@ -179,22 +191,30 @@ span{
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px){
+    .header{
+        width: 90%;
+    }
+    
     #section1{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 80%;
+        width: 65%;
         margin: auto;
-        margin-top: 150px;
+        margin-top: 175px;
     }
 
     .sect-a{
         width: 95%;
-    }    
+    }   
+    
+    .vetted{
+        font-size:40px;
+    }
 
     .curvy-line{
-        margin-left: 75%;
+        margin-left: 71%;
         margin-bottom: -10px;
     }
 
@@ -223,13 +243,21 @@ span{
 
 @media (max-width: 1100px){
     .curvy-line{
-        margin-left: 78%;
+        margin-left: 74%;
+        margin-top: 0.7%;
     }
 }
 
 @media (max-width: 1000px){
+    .zuri-team{
+        font-size: 20px;
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
     .curvy-line{
-        margin-left: 80%;
+        margin-left: 76%
     }
 
     .sect-b2{
@@ -239,11 +267,11 @@ span{
 
 @media (max-width: 900px){
     .container{
-        width: 95%;
+        width: 100%;
         margin: auto;
     }
 
-    header{
+    .header{
         width: 95%;
     }
 
@@ -260,7 +288,7 @@ span{
     }
 
     .curvy-line{
-        margin-left: 76%;
+        margin-left: 71%;
     }
 }
 
@@ -274,38 +302,86 @@ span{
     }
 
     .curvy-line{
-        margin-left: 80%;
+        margin-left: 74%;
+    }
+
+    .zuri-team{
+        width: 67%;
     }
 }
 
 @media (max-width: 700px){
     .curvy-line{
-        margin-left: 79%;
+        margin-left: 77%;
+    }
+
+    .zuri-team{
+        width: 66%;
     }
 }
 
 @media (max-width: 600px){
+    .header{
+        width: 90%;
+        justify-content: space-around;
+    }
 
     #section1{
-        margin-top: 170px;
+        margin-top: 90px;
+    }
+
+    .vetted{
+        font-size:40px;
+        width: 70%;
+        margin: 40px auto -28px auto;
     }
 
     .curvy-line{
-        margin-left: 45%;
+        margin-left: 46%;
     }
 
     .zuri-team{
-        width: 80%;
+        font-size: 17px;
+        width: 93%;
         margin: 7% auto;
     }
 
-
+    .hire-btn{
+        height: 75%;
+        width: 53%;
+    }
 }
 
 @media (max-width: 500px){
+    .header{
+        width: 85%;
+        justify-content: space-around;
+    }
+
+    .hire-btn{
+        height: 70%;
+        width: 70%;
+    } 
+    #section1{
+        margin-top: 100px;
+    }
+
+    .vetted{
+        font-size:40px;
+        width: 90%;
+    }
+
     
 }
 
 @media (max-width: 400px){
+    .header{
+        width: 85%;
+        justify-content: space-around;
+    }
     
+    .hire-btn{
+        height: 80%;
+        width: 83%;
+    }
 }
