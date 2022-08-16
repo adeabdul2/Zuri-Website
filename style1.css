@@ -164,18 +164,19 @@ span{
     width: 100%;
     background: #fdf3f2;
     padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section2{
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 83%;
     height: 75vh;
     margin: auto;
 }
 
 .sect-2a{
-    width: 55%;
+    width: 48%;
     border: 1px solid red;
 }
 
@@ -186,6 +187,40 @@ span{
 
 .pix-2b{
     width: 100%;
+}
+
+h1{
+    font-size: 42px;
+}
+
+.sect-2a p{
+    font-size: 20px;
+}
+
+.training{
+    font-weight: bold;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+.placed{
+    color: grey;
+}
+
+.pais{
+    display: flex;
+    justify-content:space-between;
+    align-items: start;
+    width: 80%;
+}
+
+.bandera{
+    width: 40px;
+    height: 40px;
+    background: white;
+    padding: 15px;
+    font-size: 2px;
+    border-radius: 7.5px;
 }
 
 /* MEDIA QUERIES */
