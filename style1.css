@@ -3,6 +3,10 @@ body{
     width: 100vw;
 }
 
+button{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* THE CONTAINER */
 .container{
     width: 100%;
