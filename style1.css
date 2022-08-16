@@ -219,6 +219,13 @@ h1{
     border-radius: 7.5px;
 }
 
+/* SECTION 3 */
+.section3{
+    width: 83%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px){
