@@ -72,9 +72,6 @@ header{
     cursor: pointer;
 }
 
-
-
-
 /* SECTION 1 */
 #section1{
     display: flex;
@@ -164,14 +161,15 @@ span{
     width: 100%;
     background: #fdf3f2;
     padding-top: 100px;
+    padding-bottom: 100px;
     font-family: 'Roboto', sans-serif;
 }
+
 
 .section2{
     display: flex;
     justify-content: space-between;
     width: 83%;
-    height: 75vh;
     margin: auto;
 }
 
@@ -227,7 +225,7 @@ h1{
 
 @media (max-width: 1200px){
     .header{
-        width: 90%;
+        width: 83%;
     }
     
     #section1{
@@ -273,6 +271,27 @@ h1{
         width: 39%;
         margin-bottom: -250px;
         margin-left: -45px;
+    }
+
+    .section2{
+        align-items: center;
+    }
+
+    h1{
+        font-size: 33px;
+        margin-bottom: 25px;
+    }
+
+    .sect-2a{
+        width: 47%;
+    }
+
+    .sect-2b{
+        width: 45%;
+    }
+
+    .pais{
+        width: 92%;
     }
 }
 
