@@ -68,6 +68,7 @@ header{
     justify-content: space-between;
     margin-top: 200px;
     margin-right: -95px;
+    margin-bottom: 100px;
 }
 
 .sect-a{
@@ -144,6 +145,36 @@ span{
     margin-top: 100px;
 }
 
+/* SECTION 2 */
+
+#section2{
+    background: #fdf3f2;
+    padding-top: 100px;
+    margin: auto -100px;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 75vh;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.sect-2a{
+    width: 55%;
+    border: 1px solid red;
+}
+
+.sect-2b{
+    width: 35%;
+    border: 1px solid red;
+}
+
+.pix-2b{
+    width: 100%;
+}
 
 /* MEDIA QUERIES */
 
