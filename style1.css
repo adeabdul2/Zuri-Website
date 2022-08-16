@@ -163,7 +163,6 @@ span{
 #section2{
     background: #fdf3f2;
     padding-top: 100px;
-    margin: auto -100px;
 }
 
 .section2{
@@ -399,5 +398,22 @@ span{
     .curvy-line{
         margin-left: 66%;
         margin-top: 2%;
+    }
+}
+
+@media (max-width: 365px){
+    .curvy-line{
+        margin-left: 68%;
+        margin-top: 2%;
+    }
+
+    .hire-btn1{
+        height: 6vh;
+        width: 35%;
+    }
+
+    .join-btn{
+        height: 6vh;
+        width: 50%;
     }
 }
