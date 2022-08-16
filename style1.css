@@ -29,6 +29,10 @@ header{
     margin: auto;
 }
 
+.zuri-pix{
+    margin-top: 20px;
+}
+
 .navbar{
     display: flex;
     width: 500px;
