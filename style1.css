@@ -86,7 +86,6 @@ header{
     flex-direction: column;
     justify-content:center;
     width: 54%;
-    border: 1px solid red;
 }
 
 .vetted{
@@ -143,7 +142,6 @@ span{
     width: 38%;
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 
 .sect-b1{
@@ -359,9 +357,20 @@ span{
     }
 
     .hire-btn{
-        height: 70%;
-        width: 70%;
-    } 
+        height: 60%;
+        width: 60%;
+    }
+
+    .hire-btn1{
+        height: 6vh;
+        width: 30%;
+    }
+
+    .join-btn{
+        height: 6vh;
+        width: 40%;
+    }
+
     #section1{
         margin-top: 100px;
     }
@@ -371,7 +380,7 @@ span{
         width: 90%;
     }
 
-    
+
 }
 
 @media (max-width: 400px){
@@ -383,5 +392,10 @@ span{
     .hire-btn{
         height: 80%;
         width: 83%;
+    }
+
+    .curvy-line{
+        margin-left: 66%;
+        margin-top: 2%;
     }
 }
