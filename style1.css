@@ -438,6 +438,28 @@ h1{
         height: 75%;
         width: 53%;
     }
+
+    .sect-2a{
+        width: 100%;
+        text-align: start;
+        align-items: start;
+        margin-top: -20px;
+    }
+
+    h1{
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .sect-2a p{
+        font-size: 16px;
+    }
+
+    .sect-2b{
+        width: 100%;
+    }
+
+    
 }
 
 @media (max-width: 500px){
@@ -470,6 +492,21 @@ h1{
         width: 90%;
     }
 
+    .pais{
+        width: 100%;
+        justify-content: space-between;
+        align-items: start;
+        border: 1px solid red;
+    }
+
+    .bandera{
+        width: 6%;
+        height: 6%;
+        padding: 5%;
+        font-size: 1%;
+        border-radius: 20%;
+    }
+
 
 }
 
@@ -487,6 +524,14 @@ h1{
     .curvy-line{
         margin-left: 66%;
         margin-top: 2%;
+    }
+
+    .sect-2a{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 27px;
     }
 }
 
