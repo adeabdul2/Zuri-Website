@@ -175,12 +175,10 @@ span{
 
 .sect-2a{
     width: 48%;
-    border: 1px solid red;
 }
 
 .sect-2b{
     width: 35%;
-    border: 1px solid red;
 }
 
 .pix-2b{
@@ -300,6 +298,15 @@ h1{
         margin-left: 74%;
         margin-top: 0.7%;
     }
+
+    .sect-2a{
+        width: 47%;
+    }
+
+    .sect-2b{
+        width: 45%;
+    }
+
 }
 
 @media (max-width: 1000px){
@@ -343,6 +350,33 @@ h1{
 
     .curvy-line{
         margin-left: 71%;
+    }
+
+    .section2{
+        flex-direction: column;
+    }
+
+    .sect-2a{
+        width: 80%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    h1{        
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .pais{
+        width: 400px;
+        justify-content:space-around;
+    }
+
+    .sect-2b{
+        width: 65%;
     }
 }
 
