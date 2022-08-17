@@ -245,10 +245,6 @@ h1{
     width: 92%;
 }
 
-.sect-3a2{
-    margin-top: -70px;
-}
-
 .talents{
     width: 35%;
     margin-top: 0;
@@ -281,6 +277,8 @@ h1{
 }
 
 .but-line{
+    
+    margin-top: -70px;
     margin-left: -105px;
     margin-bottom: -20px;
 }
@@ -370,6 +368,31 @@ h1{
 
     .pais{
         width: 92%;
+    }
+
+    .sect-3a2{
+        width: 90%;
+        border: 1px solid red;
+    }
+
+    .but3a{
+        font-size: 115%;
+        padding: 15px 35px;
+        margin-right: 1.71%;
+    }
+
+    .talents{
+        line-height: 100% ;
+    }
+
+    .but3b{
+        font-size: 115%;
+        padding: 15px 22px;
+        margin-right: 1.5%;
+    }
+
+    .but-line{
+        display: none;
     }
 }
 
@@ -576,7 +599,6 @@ h1{
         width: 100%;
         justify-content: space-between;
         align-items: start;
-        border: 1px solid red;
     }
 
     .bandera{
