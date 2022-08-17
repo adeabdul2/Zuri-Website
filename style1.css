@@ -226,38 +226,41 @@ h1{
 /* SECTION 3 */
 #section3{
     width: 100%;
-    border: 1px solid red;
 }
 
 .section3{
     width: 100%;
     margin: auto;
-    margin-top: 10%;
-    
+    margin-top: 4%;
+    margin-bottom: 4%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-items: flex-end;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
     }
 
 .sect-3a{
-    width: 93%;
-    border: 1px solid red;
+    width: 92%;
 }
 
 .sect-3a2{
     margin-top: -70px;
-    border: 1px solid red;
 }
 
 .talents{
-    width: 44%;
+    width: 35%;
+    margin-top: 0;
+}
+
+.sect-3b{
+    width: 92%;
 }
 
 .but3{
     font-size: 110%;
     color: #898989;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border: 0;
     border-radius: 10px;
     margin-right: 1.5%;
@@ -266,9 +269,33 @@ h1{
 }
 
 .but-line{
-    margin-left: -120px;
+    margin-left: -105px;
     margin-bottom: -20px;
 }
+
+/* SECTION 4 */
+#section4{
+    width: 100%;
+}
+
+.section4{
+    width: 100%;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sect-4a{
+    width: 80%;
+    background: red;
+}
+
+.sect-4b{
+    width: 80%;
+    background: blue;
+}
+
 
 /* MEDIA QUERIES */
 
