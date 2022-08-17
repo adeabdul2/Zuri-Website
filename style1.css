@@ -242,12 +242,26 @@ h1{
     }
 
 .sect-3a{
-    width: 92%;
+    width: 93%;
+    border: 1px solid red;
 }
 
 .sect-3a2{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+    grid-column-gap: 4%;
+    grid-row-gap: 20%;
+    border: 1px solid black;
+}
 
+.but3a{
+    font-size: 110%;
+    padding: 7% 7%;
+    color: #898989;
+    border: 0;
+    border-radius: 5px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1px 3px 3px 2px;
 }
 
 .talents{
@@ -257,17 +271,6 @@ h1{
 
 .sect-3b{
     width: 92%;
-}
-
-.but3a{
-    font-size: 110%;
-    color: #898989;
-    padding: 1.2% 2.5%;
-    border: 0;
-    border-radius: 10px;
-    margin-right: 1.5%;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.15) 1px 3px 3px 2px;
 }
 
 .but3b{
@@ -282,16 +285,15 @@ h1{
 }
 
 .but-line{
-    
-    margin-top: -70px;
-    margin-left: -105px;
+    margin-top: -75px;
+    margin-left: -150px;
     margin-bottom: -20px;
 }
 
 /* SECTION 4 */
 
 .section4{
-    margin-top: 50%;
+    margin-top: 20%;
 }
 
 /* MEDIA QUERIES */
@@ -367,15 +369,7 @@ h1{
         width: 92%;
     }
 
-    .sect-3a2{
-        width: 90%;
-    }
-
-    .but3a{
-        font-size: 115%;
-        padding: 1.2% 2.5%;
-        margin-right: 1.71%;
-    }
+    
 
     .talents{
         line-height: 100% ;
@@ -424,25 +418,10 @@ h1{
         display: none;
     }
 
-    .sect-3a2{
-        width: 95%;
-    }
-
-    .but3a{
-        padding: 2.5% 1.6%;
-        margin-right: 2.3%;
-        line-height: 140%;
-        border-radius: 5px;
-    }
-
     .sect-3b2{
         width: 95%;
         border: 1px solid red;
     }
-
-    .but3b{
-    }
-
 }
 
 @media (max-width: 900px){
