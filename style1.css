@@ -283,20 +283,6 @@ h1{
     margin-bottom: -20px;
 }
 
-/* SECTION 4 */
-#section4{
-}
-
-.section4{
-}
-
-.sect-4a{
-}
-
-.sect-4b{
-}
-
-
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px){
@@ -372,7 +358,6 @@ h1{
 
     .sect-3a2{
         width: 90%;
-        border: 1px solid red;
     }
 
     .but3a{
@@ -427,6 +412,24 @@ h1{
     .sect-b2{
         display: none;
     }
+
+    .sect-3a2{
+        width: 95%;
+    }
+
+    .but3a{
+        padding: 30px 18px;
+        margin-right: 2%;
+    }
+
+    .sect-3b2{
+        width: 95%;
+        border: 1px solid red;
+    }
+
+    .but3b{
+    }
+
 }
 
 @media (max-width: 900px){
