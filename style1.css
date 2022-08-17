@@ -225,16 +225,23 @@ h1{
 
 /* SECTION 3 */
 .section3{
-    width: 83%;
+    width: 100%;
     margin: auto;
+    margin-top: 10%;
     font-family: 'Roboto', sans-serif;
 }
 
+.talents{
+    width: 44%;
+}
+
 .but3{
-    font-size: 160%;
-    padding: 15px;
+    font-size: 110%;
+    color: #898989;
+    padding: 15px 25px;
     border: 0;
     border-radius: 10px;
+    margin-right: 1.5%;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
