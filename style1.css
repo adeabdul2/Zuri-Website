@@ -243,7 +243,6 @@ h1{
 
 .sect-3a{
     width: 91.5%;
-    border: 3px solid blue;
 }
 
 .sect-3a2{
@@ -429,7 +428,6 @@ h1{
 
     .sect-3b2{
         width: 95%;
-        border: 1px solid red;
     }
 }
 
@@ -593,7 +591,6 @@ h1{
     
     .talents{
         width: 85%;
-        border: 1px solid red;
     }
 }
 
@@ -698,6 +695,13 @@ h1{
     .join-btn{
         height: 6vh;
         width: 50%;
+    }
+
+    .talents{
+        text-align: left;
+        line-height: 100%;
+        margin-top: 28%;
+        margin-bottom: 20%;
     }
 
     .thousands{
