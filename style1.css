@@ -243,7 +243,6 @@ h1{
 
 .sect-3a{
     width: 91.5%;
-    border: 1px solid red;
 }
 
 .sect-3a2{
@@ -251,7 +250,6 @@ h1{
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     grid-column-gap: 3%;
     grid-row-gap: 20%;
-    border: 1px solid black;
 }
 
 .but3a{
@@ -419,6 +417,12 @@ h1{
         margin-left: 76%
     }
 
+    .talents{
+        width: 40%;
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+
     .sect-b2{
         display: none;
     }
@@ -468,11 +472,7 @@ h1{
         margin-bottom: 70px;
     }
 
-    h1{        
-        line-height: 50px;
-        margin-bottom: 30px;
-    }
-
+    
     .pais{
         width: 400px;
         justify-content:space-around;
@@ -480,6 +480,14 @@ h1{
 
     .sect-2b{
         width: 65%;
+    }
+
+    .talents{
+        width:70%;
+        text-align: center;
+        line-height: 150%;
+        margin-top: 10%;
+        margin-left: 10%;
     }
 }
 
@@ -499,6 +507,14 @@ h1{
     .zuri-team{
         width: 67%;
     }
+
+    .talents{
+        width:65%;
+        text-align: center;
+        line-height: 150%;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
 }
 
 @media (max-width: 700px){
@@ -511,16 +527,21 @@ h1{
     }
 
     .sect-3a2{
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
         grid-column-gap: 5%;
         grid-row-gap: 15%;
     }
 
     .talents{
-        width: 93%;
+        width: 65%;
         font-size: 185%;
-        margin-top: 16%;
-        margin-bottom: 10%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 8%;
+        line-height: 150%;
+        text-align: center;
     }
+
 }
 
 @media (max-width: 600px){
