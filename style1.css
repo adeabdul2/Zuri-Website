@@ -243,6 +243,7 @@ h1{
 
 .sect-3a{
     width: 91.5%;
+    border: 3px solid blue;
 }
 
 .sect-3a2{
@@ -271,7 +272,7 @@ h1{
 }
 
 .talents{
-    width: 35%;
+    width: 100%;
     margin-top: 0;
 }
 
@@ -402,7 +403,6 @@ h1{
     .sect-2b{
         width: 45%;
     }
-
 }
 
 @media (max-width: 1000px){
@@ -471,7 +471,6 @@ h1{
         align-items: center;
         margin-bottom: 70px;
     }
-
     
     .pais{
         width: 400px;
@@ -487,7 +486,6 @@ h1{
         text-align: center;
         line-height: 150%;
         margin-top: 10%;
-        margin-left: 10%;
     }
 }
 
@@ -513,7 +511,6 @@ h1{
         text-align: center;
         line-height: 150%;
         margin-top: 10%;
-        margin-left: 10%;
     }
 }
 
@@ -536,7 +533,6 @@ h1{
         width: 65%;
         font-size: 185%;
         margin-top: 10%;
-        margin-left: 10%;
         margin-bottom: 8%;
         line-height: 150%;
         text-align: center;
@@ -594,15 +590,11 @@ h1{
         grid-column-gap: 5%;
         grid-row-gap: 15%;
     }
-
-    .talents{
-        width: 93%;
-        font-size: 185%;
-        margin-top: 16%;
-        margin-bottom: 10%;
-    }
-
     
+    .talents{
+        width: 85%;
+        border: 1px solid red;
+    }
 }
 
 @media (max-width: 500px){
@@ -658,13 +650,6 @@ h1{
         grid-row-gap: 9%;
     }
 
-    .talents{
-        width: 93%;
-        font-size: 185%;
-        margin-top: 16%;
-        margin-bottom: 15%;
-    }
-
 }
 
 @media (max-width: 400px){
@@ -685,13 +670,6 @@ h1{
 
     .sect-2a{
         width: 100%;
-    }
-
-    .talents{
-        width: 93%;
-        font-size: 180%;
-        margin-top: 16%;
-        margin-bottom: 15%;
     }
 
     .sect-3a2{
@@ -722,10 +700,8 @@ h1{
         width: 50%;
     }
 
-    .talents{
-        width: 93%;
-        margin-top: 15%;
-        margin-bottom: 15%;
+    .thousands{
+        font-size: 160%;
     }
 
     .sect-3a2{
