@@ -242,14 +242,14 @@ h1{
     }
 
 .sect-3a{
-    width: 93%;
+    width: 91.5%;
     border: 1px solid red;
 }
 
 .sect-3a2{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
-    grid-column-gap: 4%;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-column-gap: 3%;
     grid-row-gap: 20%;
     border: 1px solid black;
 }
@@ -257,11 +257,18 @@ h1{
 .but3a{
     font-size: 110%;
     padding: 7% 7%;
+    line-height: 170%;
     color: #898989;
     border: 0;
     border-radius: 5px;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.15) 1px 3px 3px 2px;
+}
+
+.but-line{
+    margin-top: -75px;
+    margin-left: -135px;
+    margin-bottom: -20px;
 }
 
 .talents{
@@ -282,12 +289,6 @@ h1{
     margin-right: 1.5%;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.15) 1px 3px 3px 2px;
-}
-
-.but-line{
-    margin-top: -75px;
-    margin-left: -150px;
-    margin-bottom: -20px;
 }
 
 /* SECTION 4 */
@@ -369,7 +370,10 @@ h1{
         width: 92%;
     }
 
-    
+    .section3{
+        width: 90%;
+        align-items: center;
+    }
 
     .talents{
         line-height: 100% ;
