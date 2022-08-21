@@ -324,7 +324,7 @@ h1{
 /* SECTION 4 */
 
 #section4{
-    height: 120vh;
+    height: 150vh;
     margin-top: 8%;
     padding: 4%;
     text-align: center;
@@ -347,13 +347,15 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
-    margin: 0;
+    width: 93%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border: 1px solid red;
 }
 
 .box{
     background: #ffffff;
+    color: #b2b2b2;
     width: 28%;
     height: 200px;
     margin: 7px;
@@ -363,6 +365,11 @@ h1{
 
 .box:hover{
     background: #000;
+}
+
+.box-text{
+    font-size: 120%;
+
 }
 
 /* MEDIA QUERIES */
