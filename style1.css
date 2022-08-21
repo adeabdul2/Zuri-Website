@@ -724,6 +724,12 @@ h1{
     .work{
         text-align: center;
     }
+
+    .box{
+        padding-top: 2%;
+        width: 80%;
+        height: 200px;
+    }
 }
 
 @media (max-width: 500px){
