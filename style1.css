@@ -341,7 +341,6 @@ h1{
     background-size: auto;
     background-position: left;
     margin-top: 25px;
-    border: 1px solid red;
 }
 
 .sect-4a{
@@ -472,7 +471,6 @@ h1{
 
     .sect-4a{
         width: 100%;
-        border: 1px solid red;
     }
 
     .box{
