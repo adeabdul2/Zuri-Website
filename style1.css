@@ -340,6 +340,7 @@ h1{
     background-repeat: no-repeat;
     background-size: auto;
     background-position: left;
+    border: 1px solid red;
 }
 
 .sect-4a{
@@ -458,6 +459,25 @@ h1{
 
     .sect-3b21{
         width: inherit;
+    }
+
+    .section3{
+        width: inherit;
+    }
+
+    #section4{
+        height: 195vh;
+        margin-top: 8%;
+    }
+
+    .sect-4a{
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .box{
+        width: 40%;
+        height: 200px;
     }
 }
 
