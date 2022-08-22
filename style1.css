@@ -403,6 +403,10 @@ footer{
     width: 40px;
 }
 
+.hidden{
+    display: none;
+}
+
 .foot-2{
     color:rgb(245, 255, 254);
     margin-top: 30px;
@@ -676,6 +680,10 @@ footer{
         line-height: 150%;
         margin-top: 10%;
     }
+
+    .box-text{
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 700px){
@@ -790,7 +798,8 @@ footer{
     }
 
     .footer{
-        width: 85%;
+        margin: auto;
+        width: 99%;
         border: 1px solid red;
     }
 
@@ -805,6 +814,12 @@ footer{
     .foot-2{
         flex-direction: column;
         text-align: center;
+        line-height: 30%;
+    }
+
+    .hidden{
+        display:block;
+        width: 90%;
     }
 }
 
