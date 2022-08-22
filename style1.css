@@ -390,7 +390,7 @@ footer{
 
 .foot-1b{
     margin: 0;
-    width: 15%;
+    width: 180px;
     display: flex;
     justify-content: space-between;
 }
