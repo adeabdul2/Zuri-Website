@@ -868,6 +868,10 @@ footer{
     .last-button{
         width: 100%;
     }
+
+    #section4{
+        height: 275vh;
+    }
 }
 
 @media (max-width: 400px){
@@ -895,9 +899,12 @@ footer{
         grid-row-gap: 9%;
     }
 
-
     .sect-3b21{
         grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    }
+
+    #section4{
+        height: 270vh;
     }
 }
 
