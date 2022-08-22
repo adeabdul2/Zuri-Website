@@ -780,8 +780,31 @@ footer{
         font-size: 15px;
     }
 
+    .last-button2{
+        margin-top: 10px;
+    }
+
     #section4{
-        height: 270vh;
+        height: 300vh;
+        margin-bottom: 4px;
+    }
+
+    .footer{
+        width: 65%;
+        border: 1px solid red;
+    }
+
+    .foot-1{
+        flex-direction: column;
+        margin: auto;
+        width: 250px;
+        text-align: center;
+        border: 1px solid red;
+    }
+
+    .foot-2{
+        flex-direction: column;
+        text-align: center;
     }
 }
 
@@ -845,7 +868,6 @@ footer{
     .last-button{
         width: 100%;
     }
-
 }
 
 @media (max-width: 400px){
