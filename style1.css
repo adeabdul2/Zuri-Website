@@ -374,11 +374,11 @@ h1{
 footer{
     background: #161617;
     font-family: 'Roboto', sans-serif;
-    
+    margin-bottom: -10px;
 }
 
 .footer{
-    width: 90%;
+    width: 92%;
     margin: auto;
     padding-top: 80px;
 }
@@ -390,7 +390,7 @@ footer{
 
 .foot-1b{
     margin: 0;
-    width: 14%;
+    width: 15%;
     display: flex;
     justify-content: space-between;
 }
@@ -399,9 +399,15 @@ footer{
     width: 30px;
 }
 
+.foot-img2{
+    width: 40px;
+}
+
 .foot-2{
     color:rgb(245, 255, 254);
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 17px;
     display: flex;
     justify-content: space-between;
 }
