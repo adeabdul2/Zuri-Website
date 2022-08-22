@@ -797,7 +797,7 @@ footer{
     .foot-1{
         flex-direction: column;
         margin: auto;
-        width: 250px;
+        width: 190px;
         text-align: center;
         border: 1px solid red;
     }
