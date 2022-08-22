@@ -807,6 +807,7 @@ footer{
         margin: auto;
         width: 190px;
         text-align: center;
+        align-items: center;
     }
 
     .logo2{
@@ -826,6 +827,10 @@ footer{
     .hidden{
         display:block;
         width: 90%;
+    }
+
+    #copy{
+        margin-bottom: -5px;
     }
 }
 
@@ -926,6 +931,10 @@ footer{
 
     #section4{
         height: 270vh;
+    }
+
+    #copy{
+        margin-bottom: -5px;
     }
 }
 
