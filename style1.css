@@ -719,7 +719,7 @@ footer{
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 604px){
     .header{
         width: 90%;
         justify-content: space-around;
