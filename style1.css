@@ -370,6 +370,20 @@ h1{
     font-size: 115%;
 }
 
+/* FOOTER */
+footer{
+    background: #161617;
+}
+
+.foot-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-2{
+    color:rgb(245, 255, 254);
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px){
