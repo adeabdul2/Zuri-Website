@@ -373,6 +373,14 @@ h1{
 /* FOOTER */
 footer{
     background: #161617;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.footer{
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
 }
 
 .foot-1{
@@ -380,8 +388,22 @@ footer{
     justify-content: space-between;
 }
 
+.foot-1b{
+    margin: 0;
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-img{
+    width: 30px;
+}
+
 .foot-2{
     color:rgb(245, 255, 254);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* MEDIA QUERIES */
