@@ -800,7 +800,6 @@ footer{
     .footer{
         margin: auto;
         width: 99%;
-        border: 1px solid red;
     }
 
     .foot-1{
@@ -808,13 +807,20 @@ footer{
         margin: auto;
         width: 190px;
         text-align: center;
-        border: 1px solid red;
+    }
+
+    .logo2{
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .foot-1b{
+        margin-top: 10px;
     }
 
     .foot-2{
         flex-direction: column;
         text-align: center;
-        line-height: 30%;
     }
 
     .hidden{
